@@ -1,0 +1,76 @@
+/*-----------------------------------*\
+    #main.css
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+    #General
+\*-----------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: #03710c;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5a5959;
+    background-color: #f4f4f4;
+    margin: 3px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: underline;
+    color: #5a5959;
+}
+
+.introduction {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.introduction img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+
+#family {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #03710c;
+    text-align: center;
+}
+
+.family img {
+    max-width: 200px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#parents {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#grandpas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#children {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
